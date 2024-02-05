@@ -1,0 +1,148 @@
+/* Ajoutez ce style dans votre fichier styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #eee;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.error-message {
+    background-color: #ff9999;
+    color: #990000;
+    padding: 10px;
+    border: 1px solid #990000;
+    margin-top: 10px;
+}
+
+.success-message {
+    background-color: #99ff99;
+    color: #006600;
+    padding: 10px;
+    border: 1px solid #006600;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20%;
+}
+
+/* style.css */
+
+table {
+    width: 80%; /* Ajustez la largeur selon vos préférences */
+    margin: auto; /* Centre le tableau horizontalement */
+    border-collapse: collapse;
+    margin-top: 20px; /* Ajoute un espace en haut du tableau */
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.table-emprunts {
+    width: 100%; /* Vous pouvez ajuster cette valeur selon vos besoins */
+    border-collapse: collapse;
+    margin-top: 20px; /* Vous pouvez ajuster la marge supérieure selon vos besoins */
+}
+
+.table-emprunts th, .table-emprunts td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style pour les zones de formulaire */
+form {
+    margin-top: 20%;
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
