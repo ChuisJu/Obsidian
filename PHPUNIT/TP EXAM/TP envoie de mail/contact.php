@@ -43,7 +43,7 @@
             echo "Tous les champs sont obligatoires.";
         } else {
             // Adresse e-mail destinataire (à remplacer par votre adresse)
-            $destinataire = "votre@email.com";
+            $destinataire = "j.dubois@ecole-ipssi.net";
 
             // Entête du mail
             $entete = "From: $nom <$email>\r\n";
